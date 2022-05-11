@@ -73,6 +73,9 @@ border-radius: 10px;
    color: #999;
    font-size: 23px;
 }
+.input-field input:is(:focus, valid)~ i{
+color: #4070f4;
+}
 
 .input-field i.icon {
   left: 0;
