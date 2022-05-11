@@ -62,11 +62,21 @@ border-radius: 10px;
 
 }
 
+.input-field input:is(:focus, valid){
+     border-bottom-color: #4070f4;
+}
+
 .input-field i {
    position: absolute;
    top: 50%;
-   left: 0;
    transform: translateY(-50%);
    color: #999;
    font-size: 23px;
+}
+
+.input-field i.icon {
+  left: 0;
+}
+.input-field i.showHidePw {
+    right: 0;
 }
